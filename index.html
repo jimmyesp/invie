@@ -23,11 +23,20 @@ body, html {
   height: 45%;
 }
 
-
+img{
+  max-width: 100%;
+  vertical-align: top;
+  display: none;
+}
+@media screen and (max-width: 768px){
+  img#responsive{
+    display: block;
+  }
+}
 </style>
 </head>
 <body>
-
+  <img src="responsive-simulator.jpg" alt="" id="responsive">
   <div class="cabecera-image">
   </div>
   <div class="cuerpo-image">
